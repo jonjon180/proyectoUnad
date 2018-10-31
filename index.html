@@ -1,12 +1,98 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
-    <meta charset="utf-8">
     <title>UNAD</title>
+    <meta charset="UTF-8">
+    <meta name="title" content="Fase de Diseño - Crear el Guión y la maquetación para un OVI en formato WEB con HTML5 y CSS3">
+    <meta name="description" content="Descripción de la WEB">
+    <link href="estructura.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
-    <div class="">
-      Este es el index de prueba del repositorio
+    <header>
+      <h1>LISTADO DE CURSOS TECNOLOGIA EN DESARROLLO DE SOFTWARE</h1>
+    </header>
+    <nav class="menu">
+      <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">INICIO</a>
+            <a href="#news">PROGRAMAS ACADÉMICOS</a>
+            <a href="#contact">CONTACTENOS</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+      </div>
+    </nav>
+    <section>
+      <article>
+
+        <p>Listado de cursos tecnologia en desarrollo de software para la construccion de OVAS - Curso de diseño de sitios web</p>
+
+      </article>
+    </section>
+    <aside>
+      <div class="contenedor">
+  	<div class="contenido" style="background-color:#CCC; overflow-x:auto;">
+
+        <table>
+          <caption><b><h3>Curso de diseño de sitios web</h3></b></caption>
+          <tr>
+            <td>Código Curso</td>
+            <td>Nombre de Curso</td>
+            <td>Programa</td>
+            <td>Nombre Temática General</td>
+            <td>Breve Descripción de la Temática General</td>
+            <td>Subtemas Relevantes Asociados de la Temática General</td>
+          </tr>
+          <tr>
+            <td>204016</td>
+            <td>Teoría de sistemas enlas Organizaciones </td>
+            <td>Tec.Desarrollo de Software </td>
+            <td>Mecanismos de Formación de los sistemas </td>
+            <td>Reconocer e identificar los diferentes mecanismos por los cuales se forman los
+                sistemas independiente del tipo a que corresponda</td>
+            <td>Formación de los sistemas por relación de funcionalidad, por transferencia de
+                información o entradas o por relaciones de orden </td>
+          </tr>
+          <tr>
+            <td>204017</td>
+            <td>Introducción al desarrollo de software</td>
+            <td>Tec Desarrollo de Software </td>
+            <td>Etapas del desarrollo de software</td>
+            <td>Identificar las etapas necesarias para el desarrollo de cualquier software</td>
+            <td>Análisis y especificaciones de requerimientos, modelos</td>
+          </tr>
+          <tr>
+            <td>204035</td>
+            <td>Programación web 1</td>
+            <td>Tec. Desarrollo de Software</td>
+            <td>Vinculación de BD a una página con PHP</td>
+            <td>Mostrar la programación y los elementos necesarios para este vinculación</td>
+            <td>Pasos en la vinculación de una base de datos en una página desde PHP con
+              opciones de consulta, edición, modificación y eliminación de datos y/o registros</td>
+          </tr>
+        </table>
     </div>
+
+  </div>
+    </aside>
+    <footer>
+      <div class="pie">
+      <h4>Universidad Nacional Abierta y A Distancia
+        <br>John Jairo Rozo Gonzalez
+        <br>Ingenieria de Sistemas
+      </h4>
+
+      </di>
+      </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
   </body>
 </html>
