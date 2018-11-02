@@ -2,7 +2,9 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+.cabeza{
+  background-color: #DED7D6;
+}
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -20,7 +22,7 @@ body {
 
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: black;  width:100%;
 }
 
 .active {
@@ -53,6 +55,7 @@ body {
     text-align: left;
   }
 }
+
 div{
   border-radius: 5px;
 }
@@ -60,13 +63,16 @@ h1 {
   text-align: center;
 }
 
-.contenido{
-  height:100%;
+.contentgeneral{
+  position: relative;
+  background-color: red;
+	float: left;
   width:100%;
-  float:left;
-  margin: 10px;
   margin-bottom: 5px;
+  padding: 5px 5px 5px 5px;
+
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -83,7 +89,9 @@ th, td {
   background-color: #333;
   color: white;
   text-align: center;
+  position:relative;
+
 }
 footer{
-  margin-top: 5%;
+  margin-top: 1%;
 }
