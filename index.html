@@ -1,98 +1,102 @@
-
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <title>UNAD</title>
-    <meta charset="UTF-8">
-    <meta name="title" content="Fase de Diseño - Crear el Guión y la maquetación para un OVI en formato WEB con HTML5 y CSS3">
-    <meta name="description" content="Descripción de la WEB">
-    <link href="estructura.css" rel="stylesheet" type="text/css"/>
-  </head>
-  <body>
-    <header>
-      <h1>LISTADO DE CURSOS TECNOLOGIA EN DESARROLLO DE SOFTWARE</h1>
-    </header>
-    <nav class="menu">
-      <div class="topnav" id="myTopnav">
-            <a href="#home" class="active">INICIO</a>
-            <a href="#news">PROGRAMAS ACADÉMICOS</a>
-            <a href="#contact">CONTACTENOS</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
+    <head>
+        <meta charset="utf-8" />
+        <title>UNAD</title>
+        <meta name="title" content="Fase de Diseño - Crear el Guión y la maquetación para un OVI en formato WEB con HTML5 y CSS3">
+        <meta name="description" content="Descripción de la WEB">
+        <link href="estructura.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+          <div class="cabeza">
+            <h1>LISTADO DE CURSOS TECNOLOGIA EN DESARROLLO DE SOFTWARE</h1>
+            <!-- <nav>El men&uacute; si procediese</nav> --> <!-- Etiqueta comentada al no tener men&uacute; -->
+            </div>
+        </header>
+        <nav class="menu">
+          <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">INICIO</a>
+                <a href="#news">PROGRAMAS ACADÉMICOS</a>
+                <a href="#contact">CONTACTENOS</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+          </div>
+        </nav>
+      <div class="contentgeneral" style="height:500px;">
+        <section>
+            <article>
+              <div class="articulo" style="width: 380px; background-color: #DED7D6; float: left; height:500px; margin-top:5px; margin-left:10px;">
+                <h2> Listado de Cursos </h2>
+                <ul>
+                      <li type="square">Teoría de sistemas enlas Organizaciones</li>
+                      <li type="square">Análisis de requisitos</li>
+                      <li type="square">Lógica de Programación</li>
+                      <li type="square">Diseño de sistemas TI</li>
+                      <li type="square">Introducción al desarrollo de software</li>
+                      <li type="square">Programación web 1</li>
+                      <li type="square">Documentación y Técnicas de Prueba de Software</li>
+                      <li type="square">Programación web 2</li>
+
+                </ul>
+              </div>
+
+            </article>
+        </section>
+        <aside>
+        <div class="tableaside" style="width: 880px; background-color: #DED7D6; float: right; height:500px; margin-top:5px; margin-right:10px;" >
+          <table>
+            <caption><b><h3>Curso de diseño de sitios web</h3></b></caption>
+            <tr>
+              <td><b>Código Curso</b></td>
+              <td><b>Nombre de Curso</b></td>
+              <td><b>Programa</b></td>
+              <td><b>Nombre Temática General</b></td>
+              <td><b>Breve Descripción de la Temática General</b></td>
+              <td><b>Subtemas Relevantes Asociados de la Temática General</b></td>
+            </tr>
+            <tr>
+              <td>204016</td>
+              <td>Teoría de sistemas enlas Organizaciones </td>
+              <td>Tec.Desarrollo de Software </td>
+              <td>Mecanismos de Formación de los sistemas </td>
+              <td>Reconocer e identificar los diferentes mecanismos por los cuales se forman los
+                  sistemas independiente del tipo a que corresponda</td>
+              <td>Formación de los sistemas por relación de funcionalidad, por transferencia de
+                  información o entradas o por relaciones de orden </td>
+            </tr>
+            <tr>
+              <td>204017</td>
+              <td>Introducción al desarrollo de software</td>
+              <td>Tec Desarrollo de Software </td>
+              <td>Etapas del desarrollo de software</td>
+              <td>Identificar las etapas necesarias para el desarrollo de cualquier software</td>
+              <td>Análisis y especificaciones de requerimientos, modelos</td>
+            </tr>
+
+          </table>
+        </div>
+        </aside>
       </div>
-    </nav>
-    <section>
-      <article>
+        <footer>
+          <div class="pie">
+          <h4>Universidad Nacional Abierta y A Distancia
+            <br>John Jairo Rozo Gonzalez
+            <br>Ingenieria de Sistemas
+          </h4>
+          </div>
 
-        <p>Listado de cursos tecnologia en desarrollo de software para la construccion de OVAS - Curso de diseño de sitios web</p>
-
-      </article>
-    </section>
-    <aside>
-      <div class="contenedor">
-  	<div class="contenido" style="background-color:#CCC; overflow-x:auto;">
-
-        <table>
-          <caption><b><h3>Curso de diseño de sitios web</h3></b></caption>
-          <tr>
-            <td>Código Curso</td>
-            <td>Nombre de Curso</td>
-            <td>Programa</td>
-            <td>Nombre Temática General</td>
-            <td>Breve Descripción de la Temática General</td>
-            <td>Subtemas Relevantes Asociados de la Temática General</td>
-          </tr>
-          <tr>
-            <td>204016</td>
-            <td>Teoría de sistemas enlas Organizaciones </td>
-            <td>Tec.Desarrollo de Software </td>
-            <td>Mecanismos de Formación de los sistemas </td>
-            <td>Reconocer e identificar los diferentes mecanismos por los cuales se forman los
-                sistemas independiente del tipo a que corresponda</td>
-            <td>Formación de los sistemas por relación de funcionalidad, por transferencia de
-                información o entradas o por relaciones de orden </td>
-          </tr>
-          <tr>
-            <td>204017</td>
-            <td>Introducción al desarrollo de software</td>
-            <td>Tec Desarrollo de Software </td>
-            <td>Etapas del desarrollo de software</td>
-            <td>Identificar las etapas necesarias para el desarrollo de cualquier software</td>
-            <td>Análisis y especificaciones de requerimientos, modelos</td>
-          </tr>
-          <tr>
-            <td>204035</td>
-            <td>Programación web 1</td>
-            <td>Tec. Desarrollo de Software</td>
-            <td>Vinculación de BD a una página con PHP</td>
-            <td>Mostrar la programación y los elementos necesarios para este vinculación</td>
-            <td>Pasos en la vinculación de una base de datos en una página desde PHP con
-              opciones de consulta, edición, modificación y eliminación de datos y/o registros</td>
-          </tr>
-        </table>
-    </div>
-
-  </div>
-    </aside>
-    <footer>
-      <div class="pie">
-      <h4>Universidad Nacional Abierta y A Distancia
-        <br>John Jairo Rozo Gonzalez
-        <br>Ingenieria de Sistemas
-      </h4>
-
-      </di>
-      </footer>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
-  </body>
+        </footer>
+    </body>
 </html>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
