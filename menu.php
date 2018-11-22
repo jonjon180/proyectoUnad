@@ -6,18 +6,15 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="index.php">INICIO <span class=""</span></a>
+        <a class="nav-link" href="index.html">INICIO <span class=""</span></a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           LECTURAS
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="lectura1.php">Lectura 1</a>
-          <a class="dropdown-item" href="lectura2.php">Lectura 2</a>
-          <a class="dropdown-item" href="lectura3.php">Lectura 3</a>
-          <a class="dropdown-item" href="lectura4.php">Lectura 4</a>
-          <a class="dropdown-item" href="lectura5.php">Lectura 5</a>
+          <a class="dropdown-item" href="lectura1.html">Lectura 1</a>
+
         </div>
       </i>
       <li class="nav-item dropdown">
@@ -25,8 +22,8 @@
           MULTIMEDIA
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="multimedia1.php">Video 1</a>
-          <a class="dropdown-item" href="multimedia2.php">Video 2</a>
+          <a class="dropdown-item" href="multimedia1.html">Video 1</a>
+          <a class="dropdown-item" href="multimedia2.html">Video 2</a>
         </div>
       </i>
       <li class="nav-item dropdown">
@@ -35,12 +32,10 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="actividad1.html">Actividad 1</a>
-          <a class="dropdown-item" href="actividad2.html">Actividad 2</a>
-          <a class="dropdown-item" href="actividad">Actividad 3</a>
         </div>
       </i>
       <li class="nav-item">
-        <a class="nav-link" href="autores.php">AUTOR</a>
+        <a class="nav-link" href="autores.html">AUTOR</a>
       </li>
     </ul>
   </div>

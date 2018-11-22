@@ -32,5 +32,4 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<hr style="border-style: solid;
-    border-width: 5px;: solid 2px;">
+<hr style="border-style: solid; border-width: 5px;: solid 2px;">
